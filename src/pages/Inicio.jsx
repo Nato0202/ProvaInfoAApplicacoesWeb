@@ -5,9 +5,9 @@ function Inicio() {
   return (
     <div>
       <h1>Renan Nunes de Jesus</h1>
-      <p>Informática A</p>
-      <Link to="/multiplicar">Multiplicar</Link>
-      <Link to="/dividir">Dividir</Link>
+      <p className='subtitulo'>Informática A</p>
+      <Link className='link' to="/multiplicar">Multiplicar</Link>
+      <Link className='link' to="/dividir">Dividir</Link>
     </div>
   );
 }

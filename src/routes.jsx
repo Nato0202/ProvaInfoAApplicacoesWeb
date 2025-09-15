@@ -3,7 +3,7 @@ import Inicio from './pages/Inicio';
 import Multiplicar from './pages/Multiplicar';
 import Dividir from './pages/Dividir';
 
-function AppRoutes() {
+function Navegacao() {
   return (
     <Routes>
       <Route path="/" element={<Inicio />} />
@@ -13,4 +13,4 @@ function AppRoutes() {
   );
 }
 
-export default AppRoutes;
+export default Navegacao;

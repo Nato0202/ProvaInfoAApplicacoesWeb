@@ -1,0 +1,3 @@
+- [x] Adicionar validação no componente Multiplicar.jsx para impedir envio de respostas vazias
+- [x] Adicionar validação no componente Dividir.jsx para impedir envio de respostas vazias
+- [ ] Testar as mudanças executando a aplicação
