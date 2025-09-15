@@ -1,19 +1,3 @@
-body {
-  background-color: #ffe6e6;
-  font-family: 'Georgia', serif;
-
-  .result {
-    background-color: aquamarine;
-    border-radius: 5px;
-    padding-left: 10px;
-  }
-}
-
-h1 {
-  color: #8b0000;
-  font-size: 36px;
-}
-
 input {
   margin: 10px;
   padding: 8px;
@@ -28,7 +12,6 @@ label {
 }
 
 button {
-  background-color: #ff6347;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -39,6 +22,32 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
   transform: scale(1.25);
+}
+
+.result {
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+body {
+  background-color: #ffe6e6;
+  font-family: 'Georgia', serif;
+}
+
+h1 {
+  color: #8b0000;
+  font-size: 36px;
+}
+
+.result {
+  background-color: aquamarine;
+}
+
+button {
+  background-color: #ff6347;
+}
+
+button:hover {
+  background-color: #45a049;
 }

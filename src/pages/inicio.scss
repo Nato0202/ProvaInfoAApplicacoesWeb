@@ -1,3 +1,16 @@
+input {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
 body {
   background-color: #f0f8ff;
   font-family: 'Arial', sans-serif;
@@ -5,36 +18,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
 
-  input {
-    margin: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
+p {
+  font-size: 18px;
+  color: black;
+}
 
-  label {
-    font-size: 18px;
-    color: #333;
-  }
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
 
-  p {
-    font-size: 18px;
-    color: black;
-  }
+.link {
+  color: purple;
+}
 
-  a {
-    margin: 10px;
-    text-decoration: none;
-    color: #007bff;
-  }
-
-  .link {
-    color: purple;
-  }
-
-  .subtitulo {
-    font-size: 40px;
-  }
+.subtitulo {
+  font-size: 40px;
 }
